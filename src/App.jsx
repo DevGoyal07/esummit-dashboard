@@ -613,6 +613,7 @@ export default function ESummitDashboard() {
                     tick={{ ...axisStyle, fontSize: 11.5, fontWeight: 500 }}
                     axisLine={false}
                     tickLine={false}
+                    interval={0}
                   />
                   <Tooltip
                     content={<GlassTooltip formatter={(v) => `${v} passes`} />}
@@ -632,7 +633,7 @@ export default function ESummitDashboard() {
                 <BarChart data={collegeData} layout="vertical" barCategoryGap="18%">
                   <CartesianGrid stroke="rgba(255,255,255,0.04)" strokeOpacity={1} horizontal={false} vertical={false} />
                   <XAxis type="number" tick={axisStyle} axisLine={false} tickLine={false} domain={[0, 48]} />
-                  <YAxis type="category" dataKey="name" width={132} tick={{ ...axisStyle, fontSize: 11 }} axisLine={false} tickLine={false} />
+                  <YAxis type="category" dataKey="name" width={132} tick={{ ...axisStyle, fontSize: 11 }} axisLine={false} tickLine={false} interval={0} />
                   <Tooltip content={<GlassTooltip formatter={(v) => `${v} passes`} />} cursor={{ fill: "rgba(255,255,255,0.02)" }} />
                   <Bar dataKey="passes" radius={[0,4,4,0]} maxBarSize={16}>
                     {collegeData.map((_, i) => (
@@ -773,6 +774,7 @@ export default function ESummitDashboard() {
                       tick={{ ...axisStyle, fontSize: 11.5, fontWeight: 500 }}
                       axisLine={false}
                       tickLine={false}
+                      interval={0}
                     />
                     <Tooltip
                       content={<GlassTooltip formatter={(v) => `${v} participants`} />}

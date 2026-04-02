@@ -396,7 +396,7 @@ export default function ESummitDashboard() {
                 Sales Analysis Dashboard
               </span>
             </h1>
-            <p style={{ color: T.muted, fontSize: 13, marginTop: 7 }}>Final performance report · E-Summit 2026 vs 2025</p>
+            <p style={{ color: T.muted, fontSize: 13, marginTop: 7 }}>Final performance report · E-Summit 2026 vs 2025 . Devansh Goel</p>
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: 8, padding: "6px 14px", borderRadius: 99, background: T.emeraldDim, border: `1px solid ${T.emerald}30`, flexShrink: 0 }}>
             <div style={{ width: 6, height: 6, borderRadius: "50%", background: T.emerald, opacity: pulse ? 1 : 0.12, boxShadow: pulse ? `0 0 7px ${T.emerald}` : "none", transition: "opacity 0.4s, box-shadow 0.4s" }} />

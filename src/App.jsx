@@ -393,7 +393,7 @@ export default function ESummitDashboard() {
             <h1 style={{ fontSize: "clamp(1.4rem,2.4vw,1.95rem)", fontWeight: 700, letterSpacing: "-0.035em", lineHeight: 1.1 }}>
               E-Summit '26{" "}
               <span style={{ background: "linear-gradient(120deg, #22d3ee 0%, #818cf8 55%, #10b981 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                Sales Command Center
+                Sales Analysis Dashboard
               </span>
             </h1>
             <p style={{ color: T.muted, fontSize: 13, marginTop: 7 }}>Final performance report · E-Summit 2026 vs 2025</p>

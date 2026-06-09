@@ -4,7 +4,7 @@ An interactive analytics dashboard for **E-Summit 2026 (E-Cell, IIT Madras)** th
 
 **Live:** https://esummit-dashboard.vercel.app
 
-<!-- Add a screenshot for instant context:
+
 ![Dashboard](public/dashboard.png)
 -->
 
